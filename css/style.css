@@ -1,0 +1,105 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700|Poppins:700');
+
+/* Fontawesome */
+@import url('https://use.fontawesome.com/releases/v5.6.3/css/all.css');
+
+/* Utilities */
+body {
+  margin: 0;
+  font-family: Open Sans;
+ }
+
+h1, h2,{
+  font-family: 'Baloo 2', cursive;
+
+}
+
+h3, h4 {
+  font-family: Poppins;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 50vw;   /* This sets the width */
+  margin: 0 auto; /* This automatically sets left/right margins */
+}
+.banner {
+  background-color: #ffd369;
+  height: 250px;
+  text-align: center;
+}
+
+
+.banner h1, h2, p{
+  color: #015668;
+  font-family: 'Baloo 2', cursive;
+}
+
+
+.btn-first {
+  color: white;
+  padding: 15px 25px;
+  border-radius: 4px;
+  font-weight: bold;
+  background: #015668;
+  transition: background 0.3s ease;
+}
+
+h2.text-center {
+    text-align: center;
+}
+
+.cards-container{
+  display: flex;
+  justify-content: space-between;
+}
+
+.card {
+background-color: #015668;
+}
+
+.card {
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+    border-radius: 5px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  }
+
+.footer {
+  margin-top: 5%;
+  background-color: #ffd369;
+  color: grey;
+  padding: 1%;
+  text-align: center;
+}
+
+.icons {
+  align-items: center;
+  color: #ffffff;
+}
+
+.fab {
+  margin: 10px;
+  font-size: 2em;
+  color: #ffffff;
+}
+
+.icons a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 30px;
+  color: white;
+}
